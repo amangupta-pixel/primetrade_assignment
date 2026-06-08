@@ -1,0 +1,50 @@
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Conda metadata
+
+conda-meta/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+
+.env
+.env.*
+
+# Testing / coverage
+
+.coverage
+htmlcov/
+.pytest_cache/

@@ -1,0 +1,6 @@
+[ 2026-06-08 23:29:22,277 ] 19 root - INFO - Job Started at: 2026-06-08 23:29:22
+[ 2026-06-08 23:29:22,278 ] 44 root - INFO - Config loading and validation done
+[ 2026-06-08 23:29:22,326 ] 77 root - INFO - Rows loading done
+[ 2026-06-08 23:29:22,336 ] 117 root - INFO - Rolling mean and signal generation steps done
+[ 2026-06-08 23:29:22,336 ] 144 root - INFO - Metrics obtained and metrics.json generated
+[ 2026-06-08 23:29:22,336 ] 145 root - INFO - Trading Signal Pipeline Completed Successfully
