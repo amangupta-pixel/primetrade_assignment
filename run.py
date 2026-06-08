@@ -83,12 +83,7 @@ def load_dataset(file) -> pd.DataFrame:
     except Exception as e:
         raise ValueError(str(e))
     
-'''
-3) Rolling mean
-Compute rolling mean on close using window from config.
-Important: define how you handle the first window-1 rows (e.g., allow NaNs and exclude from
-signal computation, or fill—just be consistent)
-'''
+
 
 try:
         
@@ -101,6 +96,13 @@ try:
 
     df['close'] = pd.to_numeric(df['close'])
     print(df['close'].dtype) # float64
+
+    '''
+    3) Rolling mean
+    Compute rolling mean on close using window from config.
+    Important: define how you handle the first window-1 rows (e.g., allow NaNs and exclude from
+    signal computation, or fill—just be consistent)
+    '''
 
     df["rolling_mean"] = df["close"].rolling(window=config["window"]).mean()
 
